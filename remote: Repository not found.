@@ -1,0 +1,46 @@
+jika git base here error saat login
+pas login suka error 404 maka anda harus membuat token 
+cara nya klik settings
+klik developer setting
+klik personal access tokens
+klik token klasik
+generate new token
+nama token bebas
+ceklis semua kotak yang ada dan klik buat terus salin kode token tersebut
+setelah anda memasukan perintah di git base here "git push -u origin main"
+maka masukan token akan muncul tombol sign in .dan klin tombol TOKEN samping sign in lalu
+anda tinggal paste kan token yang anda buat dan tekan masuk
+
+
+JIKA MASIH ERROR
+ketika anda memasukan perintah "git push -u origin main"
+dan keluar remote: Repository not found.
+fatal: repository 'https://github.com/nama akun anda/web git anda/' not found
+
+Maka anda pasti copy/menyalin lagi perintah/ketik di git:  "git remote add origin https://github.com/akun anda/nama repository anda.github.io.git"
+maka pastri keluar lagi : remote: Repository not found.
+fatal: repository 'https://github.com/nama akun anda/web git anda/' not found
+dan sampe setahun anda kan setres 
+
+
+MENGATASI NYA KETIK PERINTAH
+ git remote set-url origin https://github.com/AKUN ANDA/REPOSITORY ANDA.github.io.git
+KEMUDIA KETIK
+git push -u origin main
+DAN PASTI FILE ANDA TERUPLOAD
+
+pemecahaan masalah asalnya 
+git remote add origin
+HANYA GANTI
+git remote set-url origin  
+
+
+
+
+
+terimakasih semua membantu
+
+
+
+
+
